@@ -1,0 +1,241 @@
+ html, body {
+    margin: 0%;
+    padding-top:  0px;
+ }
+ header {
+    background-color: #190707;
+    color: white;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+ }
+ .menu {
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+header .menu li {
+    float: left;
+   font-size: 18px;
+   padding: 20px 10px 20px 10px;
+}
+header .menu li a {
+    color: initial;
+    text-decoration: initial;
+    color: white;
+}
+li:hover {
+    background-color: #01AAEA;
+}
+ #img-fundo {
+    background-image: url(diversity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    border-left: 2.0vw #4B610B solid;
+}
+#titulo {
+    color: #EFFBFB;
+    padding-top: 10%;
+    font-size: 2.0rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;    
+    font-size: 2em;
+    margin-block-start: 0.67cm;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#sub {
+    border-top: 3px center solid white;
+    color: #EFFBF8;
+    font-size: 1.0rem;
+    font-family: cursive;
+    text-align: center;
+}
+#ods {
+    color: #000000;
+    text-transform: uppercase;
+    font-family: cursive;
+    border: 0.1rem  solid;
+    padding: 0.5rem 1rem;
+    border-radius: 0.8rem;
+    background-color: #F6524A;
+    margin: 0 auto;
+    text-decoration: none;
+}
+#ods:hover {
+    background-color:#01acea;
+}
+.linha {
+    width: 35%;
+    size: 8; 
+    color: #BE81F7;
+}
+.linhas {
+    width: 10%;
+    size: 7;
+    color: #848484;
+}
+.centralizado {
+    text-align: center;
+    font-weight: bold;
+    text-transform: initial;
+    font-size: 1.9rem;
+}
+
+h3{clear: both;
+    text-align: center;
+}
+
+.video {
+    padding-left:3%;
+    float:left;
+    width: 40%;
+}
+#diversidade {
+    clear:both;
+    padding-left: 20px;
+    float:left;
+    margin-bottom: 20px;
+    display:block;
+    padding-top: 20px;
+    border-left: 2.0vw #26464b solid;
+}
+.texto {
+    text-align: justify;
+    text-indent: 20px;
+    width: 40%;
+    float:left;
+    position: relative;  
+    padding:20px;
+    display: block;
+    padding-left:3%;
+}
+.video {
+    margin-bottom: 20px;
+}
+.imagem {
+    clear: both;
+    float:left;
+    width: 35%;
+   }
+
+#inclu {
+    clear:both;
+    padding-left: 20px;
+    float:left;
+    margin-bottom: 20px;
+    display:block;
+    padding-top: 20px;
+    border-left: 2.0vw #4B610B solid;
+    background-color:#F2F2F2;
+}
+
+.tipos {
+    margin-bottom: -20px;
+    padding-top: 50px;
+    padding-left: 20px;
+    text-align: center;
+    border-left: 2.0vw #26464b solid;
+}
+
+.icone {
+    width: 64px;
+    
+}
+
+#homofobia{
+    clear:both;
+    display:block;
+    padding-left: 20px;
+    float:left;
+    padding-top: 30px;
+    background-color: #F2F2F2;
+    border-left: 2.0vw #4B610B solid ;
+}
+#desigualdade{
+    clear:both;
+    display:block;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+#grupos {
+    text-align: justify;
+    padding-left: 5px;
+}
+#quebra {
+    text-align: center;
+}
+.texto1 {
+    text-align: center;
+}
+#reportagem {
+    clear:both;
+    display:block;
+    padding-left: 20px;
+    float:left;
+    padding-top: 20px;
+    border-left: 2.0vw  #26464b solid ;
+}
+#mim {
+    clear:both;
+    display:block;
+    width: 96%;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: #5dc0c0;
+    border-left: 2.0vw  #26464b solid;
+}
+#euu {
+    padding-right: -5%;
+    padding-top: 20px;
+    width: 40%;
+    padding: 1.5%;
+    border-radius: 100%;
+    float: right;
+}
+#euzinha{
+    padding-left: 5%;
+    float: left;
+    text-align:center;
+    width: 40%;
+    font-size: 20px;
+}
+footer {
+    padding: 10px;
+    font-family: cursive 15px;
+    background-color: #01acea;
+    width: 96%;
+    margin: 0 auto;
+    overflow: hidden;
+    color: #2A0A12;
+    border-left: 2.0vw   #01acea solid;
+    text-align: center;
+}
+#site {
+    float: center;
+}
+#creditos {
+    width: 96%;
+    text-align: center;
+}
+#icone1 {
+  float: left;
+  padding: 0 5%;
+  position: relative;
+  width: 15%;
+  padding: 0 5% 0 5%;
+}
+h4 {
+    font-size: 20px;
+    color: #0A2229;
+}
+.link {
+    text-decoration: initial;
+    border: 100%;
+}
