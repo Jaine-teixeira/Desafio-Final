@@ -1,0 +1,272 @@
+html, body {
+    margin: 0 auto;
+    font-size: 1.125em;
+ }
+header {
+    background-color: #190707;
+    color: white;
+    height: 12%;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+ }
+.menu {
+    float: center;
+    list-style: none;
+}
+header .menu li {
+   float: left;
+   font-size: 18px;
+   padding: 20px 10px 20px 10px;
+}
+header .menu li a {
+    color: initial;
+    text-decoration: initial;
+    color: white;
+}
+li:hover {
+    background-color: #01AAEA;
+}
+
+#img-fundo {
+    background-image:url("diversity.jpg");
+    background-repeat: no-repeat;
+    height:98vh;
+    text-align:center;
+    background-size:cover;
+    border-left: 2.0vw #4B610B solid;
+}
+
+#titulo {
+    color: #EFFBFB;
+    padding-top: 20%;
+    font-size: 2.0rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;    
+    font-size: 2em;
+}
+#sub {
+    border-top: 3px center solid white;
+    color: #EFFBF8;
+    font-size: 1.0rem;
+    font-family: cursive;
+    text-align: center;
+}
+#ods {
+    color: #000000;
+    text-transform: uppercase;
+    font-family: cursive;
+    border: 0.1rem  solid;
+    padding: 0.5rem 1rem;
+    border-radius: 0.8rem;
+    background-color: #F6524A;
+    text-decoration: none;
+}
+#ods:hover {
+    background-color:#01acea;
+}
+.linha {
+    width: 35%;
+    size: 8; 
+    color: #BE81F7;
+}
+.linhas {
+    width: 10%;
+    size: 7;
+    color: #848484;
+}
+.centralizado {
+    text-align: center;
+    font-weight: bold;
+    text-transform: initial;
+    font-size: 1.9rem;
+}
+
+h3{
+    clear: both;
+    font-size: 4vh;
+    text-align: center;
+    font-weight: bold;
+}
+
+#diversidade {
+    clear: both;
+}
+
+.esquerdo{
+    float:left;
+    padding-left: 2%;
+    width: 40%;
+}
+
+.direito{
+    float:right;
+    padding-right: 5%;
+    width: 40%;
+}
+
+.video{
+    text-align: justify;
+}
+
+.texto {
+    padding:1% 5% 2% 1%;
+    font-size: 3vh;
+
+}
+
+#inclu {
+    clear:both;
+    padding: 2%;
+    background-color: #EFF2FB;
+}
+
+#tipo {
+    clear: both;
+    padding: 4% 2% 4% 2%;    
+}
+.tipos {
+    clear: both;
+    display: block;
+}
+
+#grupos {
+    clear:both;
+    padding: 4% 2% 4% 2%;
+    text-align: center;
+    display: block;
+}
+
+.icone {
+    width: 20%;
+    float: left;
+    padding: 7%;
+    padding-left: 5%;
+}
+
+.list{
+    float: left; 
+    font-size: 4vh;
+    width: 30%; 
+}
+
+#desigual{
+    clear:both;
+    padding: 4% 2% 4% 2%;
+    text-align: center;
+}
+
+.imagem {
+    clear: both;
+    width:90%;
+    padding: 3%;
+    text-align: center;
+    border: #26464b solid 5px ;
+   }
+
+#homofobia{
+    clear:both;
+    padding: 4% 2% 4% 2%;
+    text-align: center;
+    background-color: #EFF5FB;
+}
+
+#reportagem{
+    clear:both;
+    padding: 4% 2% 4% 2%;
+    text-align: center;   
+}
+
+#mim {
+    clear:both;
+    padding: 4% 2% 4% 2%;;
+    height: 70vh;
+}
+
+#euzinha{
+    padding-left: 5%;
+    float: left;
+    text-align:center;
+    width: 40%;
+    font-size: 20px;
+}
+
+#euu {
+    padding-right: 5%;
+    padding-top: 20px;
+    width: 55%;
+    border-radius: 100%;
+}
+   
+footer {
+    clear: both;
+    padding: 4% 2% 4% 2%;
+    font-family: cursive 15px;
+    background-color: #A9E2F3;
+    color: #27070f;
+    }
+
+#site {
+    clear: both;
+    text-align: center;
+    line-height: 0,5%;
+}
+
+#contatos {
+    clear:both;
+    padding: 4% 2% 4% 2%;
+    text-align: center;
+    height: 50vh;
+}
+#creditos {
+    clear: both;
+}
+    
+h4 {
+    font-size: 20px;
+    color: #0A2229;
+}
+
+.link {
+    text-decoration: initial;
+}
+
+a{
+    padding: 0.5%;
+    letter-spacing: 1.5;
+}
+
+@media all and (max-width: 760px) {
+    body{
+        background-color: whitesmoke;
+        width: 100%;
+    }
+    #mim {
+        text-align: center;
+        text-transform: capitalize;
+    }
+    }
+    .direito, .esquerdo {
+        width: 90%;
+        padding-top: 2%;
+        }
+    div{ 
+        float: none;
+        clear: both;
+        display: block;
+        text-align: justify;  
+    }
+    #euu {
+        border: 50%;
+    }
+     section{
+        float: none;
+        text-align: justify;  
+     }
+    .menu{
+        visibility:hidden;
+    } 
+    footer {
+        height: 40%;
+    }
+}
